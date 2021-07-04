@@ -18,7 +18,7 @@ namespace pro01_git
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
+                .ConfigureWebHostDefaults(webBuilders =>
                 {
                     webBuilder.UseStartup<Startup>();
                 });
